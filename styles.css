@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  h1, h3,h4, p {
+    margin: 0;
+  }
+  h2 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  h4 {
+    color: #333;
+  }
+
+  header {
+    padding: 40px 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  header h1 {
+    font-size: 36px;
+  }
+  
+  header h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ccc;
+  }
+  
+  section {
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  section h2 {
+    margin-bottom: 40px;
+  }
+  
+  .project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .project img {
+    width: 500px;
+    margin-right: 60px;
+  }
+  
+  .project-info {
+    text-align: left;
+  }
+  
+  .project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    margin-bottom: 20px;
+  }
+  
+  .project-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-button:hover {
+    background-color: #555;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #555;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    header {
+      text-align: center;
+    }
+  
+    header h1 {
+      font-size: 28px;
+    }
+  
+    header h2 {
+      font-size: 20px;
+    }
+  
+    nav ul {
+      justify-content: center;
+      margin-top: 10px;
+    }
+  
+    section {
+      padding: 60px 0;
+    }
+  
+    .project {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .project img {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+  .containers {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  h2.welcome-heading {
+    font-family: 'Lato', sans-serif;
+    font-size: 90px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+  }
+  .resume-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .resume-link:hover {
+    background-color: #555;
+  }
+ .certification-button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.certification-button:hover {
+  background-color: #555;
+}
+
+  
